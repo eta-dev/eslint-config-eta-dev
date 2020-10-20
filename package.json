@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-eta-dev",
+  "version": "1.0.0",
+  "description": "A shareable ESLint config",
+  "main": ".eslintrc.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eta-dev/eslint-config-eta-dev.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "shadowtime2000",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eta-dev/eslint-config-eta-dev/issues"
+  },
+  "homepage": "https://github.com/eta-dev/eslint-config-eta-dev#readme",
+  "dependencies": {
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint-config-prettier": "^6.13.0"
+  },
+  "peerDependencies": {
+    "eslint": ">=0.8.0",
+    "@typescript-eslint/eslint-plugin": ">=4.2.0",
+    "eslint-plugin-import": ">=2.x.x",
+    "eslint-plugin-node": ">=11.x.x",
+    "eslint-plugin-promise": ">=4.x.x",
+    "eslint-plugin-standard": ">=4.x.x"
+  }
+}
